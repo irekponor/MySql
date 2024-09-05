@@ -11,6 +11,11 @@ form{
     display: block;
 }
 
+h3 {
+    margin: 20px;
+    color: blue;
+}
+
 input {
     display: block;
     border: 2px solid #000000;
