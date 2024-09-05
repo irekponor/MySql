@@ -12,7 +12,7 @@
 <body>
     <h3>SignUp</h3>
 
-    <form action="includes/formhandler-inc.php" method="post">
+    <form action="formhandler-inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="pwd" placeholder="Password">
         <input type="text" name="email" placeholder="Email">
