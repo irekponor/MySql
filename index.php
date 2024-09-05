@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <h3>Signup</h3>
+    <h3>SignUp</h3>
 
     <form action="includes/formhandler-inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
