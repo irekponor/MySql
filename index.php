@@ -9,7 +9,13 @@
 </head>
 
 <body>
+    <h3>Signup</h3>
 
+    <form action="includes/" method="post"></form>
+    <input type="text" name="username" placeholder="Username">
+    <input type="password" name="pwd" placeholder="Password">
+    <input type="text" name="email" placeholder="Email">
+    <button>Sign Up</button>
 </body>
 
 </html>
