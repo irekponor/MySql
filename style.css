@@ -1,8 +1,15 @@
-*{
-    display: block;
-}
 
 button{
     background: #000000;
     color: #fff;
+}
+
+form{
+    display: block;
+}
+
+input {
+    border: 2px solid #000000;
+    border-radius: 7px;
+    padding: 20px;
 }
