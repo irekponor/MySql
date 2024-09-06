@@ -19,6 +19,14 @@
         <button>Sign Up</button>
     </form>
 
+    <h3>Change Account</h3>
+    <form action="userupdate-inc.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <input type="text" name="email" placeholder="Email">
+        <button>Update</button>
+    </form>
+
     <h2>Delete Account</h2>
     <form action="userdelete-inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
