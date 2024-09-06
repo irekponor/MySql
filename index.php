@@ -18,6 +18,13 @@
         <input type="text" name="email" placeholder="Email">
         <button>Sign Up</button>
     </form>
+
+    <h3>Delete Account</h3>
+    <form action="userdelete-inc.php" method="post">
+        <input type="text" name="username" placeholder="Username">
+        <input type="password" name="pwd" placeholder="Password">
+        <button>Delete</button>
+    </form>
 </body>
 
 </html>
