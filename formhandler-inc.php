@@ -17,7 +17,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $pdo = null;
         $stmt = null;
 
-        header("Location: index.php");
+        header("Location: index.php")
 
         die();
     } catch (PDOException $e) {
