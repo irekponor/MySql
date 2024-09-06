@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = $_POST["email"];
 
     try {
-        require_once "dbh-inc.php";
+        require_once "includes/dbh-inc.php";
 
         $query = "INSERT INTO users (username, pwd, email) VALUES (?, ?, ?);";
 
