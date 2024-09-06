@@ -19,7 +19,7 @@
         <button>Sign Up</button>
     </form>
 
-    <h3>Delete Account</h3>
+    <h2>Delete Account</h2>
     <form action="userdelete-inc.php" method="post">
         <input type="text" name="username" placeholder="Username">
         <input type="password" name="pwd" placeholder="Password">

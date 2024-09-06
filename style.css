@@ -8,7 +8,9 @@ button{
 }
 
 form{
-    display: block;
+    display: grid;
+    grid-template-rows: 4;
+    gap: 150px;
 }
 
 h3 {
@@ -22,4 +24,9 @@ input {
     border-radius: 7px;
     padding: 10px;
     margin: 10px;
+}
+
+h3 {
+    margin: 30px;
+    color: red;
 }
