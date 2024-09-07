@@ -1,1 +1,1 @@
-It also has a login page and a delete account page
+It also has a login, update and a delete account page
